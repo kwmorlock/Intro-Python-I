@@ -16,9 +16,9 @@ z = "I like turtles!"
 
 # Finally, print the same thing using an f-string
 
-print('x is % 2d, y is % .2f, z is "% s"' % (x, y, z))
+print('x is %d, y is % .2f, z is "% s"' % (x, y, z))
 
 # 2d amount of spaces in terminal, so would be 3 spaces if 3d
-
+# f for decimal places
 # s for string?? d for number??
 
