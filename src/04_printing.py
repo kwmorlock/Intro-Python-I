@@ -15,3 +15,10 @@ z = "I like turtles!"
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+
+print('x is % 2d, y is % .2f, z is "% s"' % (x, y, z))
+
+# 2d amount of spaces in terminal, so would be 3 spaces if 3d
+
+# s for string?? d for number??
+
