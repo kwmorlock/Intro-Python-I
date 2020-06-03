@@ -21,5 +21,5 @@ f.close()
 
 # YOUR CODE HERE
 with open("bar.txt", "w") as f:
-    f.write('')
+    f.write('random lines \nthree lines of \narbitrary stuff.')
     f.close
