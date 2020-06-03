@@ -29,3 +29,16 @@ import os
 
 # Print out your machine's login name
 # YOUR CODE HERE
+
+for arg in sys.argv:
+    print(arg)
+
+print(f"Hmm {sys.platform}")
+
+print(f"{sys.version}")
+
+print(f"{os.getpid()}")
+
+print(f"{os.getcwd()}")
+
+print(f"{os.getlogin()}")

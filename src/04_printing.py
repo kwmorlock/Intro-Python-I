@@ -15,3 +15,12 @@ z = "I like turtles!"
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+
+print('x is %d, y is % .2f, z is "% s"' % (x, y, z))
+
+# 2d amount of spaces in terminal, so would be 3 spaces if 3d
+# f for decimal places
+# s for string?? d for number??
+print('x is {0}, y is {1:.2f}, z is "{2}"'.format(x,y,z))
+
+print(f'x is {x}, y is {y:.2f}, z is "{z}"')
